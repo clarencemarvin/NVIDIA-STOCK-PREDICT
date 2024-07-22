@@ -38,7 +38,7 @@ It will also display the accuracy scores for the test set and training set.
 
 The project follows these main steps:
 
-1. **Data Retrieval**: The script fetches historical stock data using the Tiingo API. The Tiingo API provides a reliable and efficient way to access financial data. It is used as an alternative to the Yahoo Finance API (yfinance) because yfinance can sometimes be buggy or inconsistent.
+1. **Data Retrieval**: The script fetches historical stock data using the Tiingo API. The Tiingo API provides a reliable and efficient way to access financial data. It is used as an alternative to the Yahoo Finance API (yfinance) as yfinance can sometimes be buggy or inconsistent.
 
 2. **Data Preprocessing**: The retrieved stock data is preprocessed by removing missing values, scaling the features using MinMaxScaler, and creating input sequences and corresponding labels for training the models.
 
